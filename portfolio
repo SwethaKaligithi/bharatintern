@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+header h1 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.section {
+    padding: 20px 0;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+.project {
+    margin: 20px 0;
+}
+.project img {
+    max-width: 100%;
+    height: 150px;
+    width:150px;
+    border-radius: 8px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+h3{
+    color:red;
+}
+.button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.social-icons a {
+    margin: 0 10px;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="data:image/jpeg;base64,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" alt="Your Name">
+            <h1>SWETHA KALIGITHI</h1>
+            <h2>Software Engineer</h2>
+        </div>
+    </header>
+    <section id="about" class="section">
+        <div class="container">
+            <p>Smart student studying Artificial Intelligence & Machine Learning and looking for related experience. Willing to listen ,learn and excited to contribute in real-world environment to help find practical , actionable solutions for present needs.</p>
+        </div>
+    </section>
+
+    <section id="content" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+                <li>Python</li>
+                <li>Full Stack Web Development</li>
+                <li>Machine Learning</li>
+        </div><br>
+        <div class="container">
+            <h2>Interests</h2>
+                <li>Writing</li>
+                <li>Sports</li>
+                <li>Communication</li>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2><br>
+            <h3>Project-1</h3>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxLPo6pl736AyA2_SV2mfvMOn0bt8OTSw_ig&usqp=CAU" alt="Project 1">
+                <h4><u>Advanced Fake News Detection using NLP</u></h4>
+                <p>An innovative project leveraging Natural Language Processing
+                    employs advanced semantic analysis</p>
+            </div>
+            <div class="project">
+                <h3>Project-2</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bmGaxFp2N6rc1jQqhvOFIg1sfwihrrXYUQ&usqp=CAU" alt="Project 2">
+                <h4><u>Classification Of Biomarkers & Magnetic tracking of Nanobots</u></h4><br>
+                <p>In the realm of biomarkers, a classification system categorizes these
+                    biological indicators into distinct groups based on their functions
+                    and significance.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Services</h2>
+            <p>Offering services such as web development, design, and consulting. Tailoring solutions to meet client needs and delivering high-quality results.</p>
+        </div>
+    </section>
+
+    <section id="cta" class="section">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's work together to create something amazing. Contact me to discuss your ideas and goals.</p>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Email: 21pa1a5440@vishnu.edu.in</p>
+            <p>Phone: +91 70****26</p>
+            <p>Location: Palakol,Andhra Pradesh</p>
+        </div>
+    </section>
+
+            
